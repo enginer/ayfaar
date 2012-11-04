@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.ayfaar"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+
+    <application android:label="Ayfaar"  android:debuggable="true">
+        <activity android:name="HomeActivity"
+                  android:label="Ayfaar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ReadingActivity"></activity>
+    </application>
+</manifest>
